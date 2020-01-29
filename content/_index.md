@@ -2,8 +2,8 @@
 title: "Eclipse Sparkplug Working Group"
 seo_title: "Eclipse Sparkplug Working Group"
 headline: "Eclipse Sparkplug Working Group"
-tagline: "TBD"
-description: "The Eclipse Sparkplug Working Group seeks to drive the evolution and broad adoption of the Eclipse Sparkplug protocol and related technologies that enable the creation of open, collaborative, and interoperable Industrial IoT (IIoT) solutions."
+tagline: "Interoperability for MQTT-based Industrial IoT solutions"
+description: "The Eclipse Sparkplug Working Group seeks to drive the evolution and broad adoption of the Eclipse Sparkplug protocol and related technologies that enable the creation of open, collaborative, and interoperable Industrial IoT (IIoT) solutions that are based on MQTT."
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true

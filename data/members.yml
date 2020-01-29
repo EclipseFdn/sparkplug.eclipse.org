@@ -1,3 +1,28 @@
 types:
   - name: members
     items:
+    -
+      image: /images/sparkplug/members/canary-logo.png
+      title: Canary Labs
+      link: https://www.canarylabs.com/
+      img_width: 200
+    -
+      image: /images/sparkplug/members/chevron-corporation.svg
+      title: Chevron
+      link: https://www.chevron.com/
+      img_width: 120
+    -
+      image: /images/sparkplug/members/cirrus-link-solutions.png
+      title: Cirrus Link
+      link: https://www.cirrus-link.com/
+      img_width: 200
+    -
+      image: /images/sparkplug/members/hivemq-header-logo.svg
+      title: HiveMQ
+      link: https://www.hivemq.com/
+      img_width: 200
+    -
+      image: /images/sparkplug/members/inductive-automation-logo.png
+      title: Inductive Automation
+      link: https://inductiveautomation.com/
+      img_width: 200

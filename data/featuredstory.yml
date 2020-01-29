@@ -10,4 +10,5 @@ items:
     link: <a class="btn btn-primary" href="https://accounts.eclipse.org/mailing-list/sparkplug-wg">Join our Mailing List</a> <a class="btn btn-primary" href="https://accounts.eclipse.org/contact/membership">Contact Us</a>
     startDate: 2019-07-18
     endDate: 2099-10-10
+    bgImgSrc: /images/sparkplug/footer/mailing-list-image.jpg
     type: footer
