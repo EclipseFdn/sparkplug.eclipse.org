@@ -21,9 +21,18 @@ items:
     name: Arlen Nipper
     title: Chief Technology Officer
     company: Cirrus Link Solutions
-    text: We’re very much focused on enabling operational data from devices and applications on the edge of the network and the IIoT devices that live there, therefore so Sparkplug fulfills a critical function in enabling the IIoT industry MQTT-enabled devices to interoperate seamlessly. The Eclipse Foundation’s track record in enabling communities to productively innovate is precisely what this industry requires in order to ensure the Sparkplug protocol achieves its potential.
+    text: As one of the co-inventors of MQTT over 20 years ago, I couldn’t be more pleased to see the Sparkplug specification bring MQTT back into the original market sector it was developed for in the first place. The Eclipse Foundation’s successful track record in this space with projects like Eclipse Paho and others is precisely what the emerging IIoT industry requires [...]. 
     logo: /images/sparkplug/members/cirrus-link-solutions.png
     alt: "Cirrus Link Solutions"
+    logo_width: 90
+
+  -
+    name: Dominik Obermaier
+    title: Chief Technology Officer and co-Founder
+    company: HiveMQ
+    text: Sparkplug is the ideal means to promote the successful use of MQTT in IIoT applications. A big part of what we do is making it possible to build connected products for applications where safety is critical. As a result, we are excited to provide a highly reliable and highly scalable MQTT broker for customers who are deploying Sparkplug. 
+    logo: /images/sparkplug/members/hivemq.png
+    alt: "HiveMQ"
     logo_width: 90
 
   -
@@ -31,6 +40,15 @@ items:
     title: Chief Strategy Officer
     company: Inductive Automation
     text: Our Ignition platform is designed specifically to bridge the gap between IT and production systems, so ensuring interoperability for systems spanning the IIoT ecosystem is critical to our business. This new working group is a critical component to making industry-wide interoperability a reality.
+    logo: /images/sparkplug/members/inductive-automation-logo.png
+    alt: "Inductive Automation"
+    logo_width: 90
+
+  -
+    name: Angus Shih
+    title: Chief Executive Officer
+    company: ORing
+    text: It is ORing’s great honor to work with the Sparkplug Working Group founding members to develop MQTT-Sparkplug technology for the next generation of IoT and smart city solutions. [...] MQTT-Sparkplug is the best solution to solve IoT device compatibility issues and can manage the status of IOT devices in real time. 
     logo: /images/sparkplug/members/inductive-automation-logo.png
     alt: "Inductive Automation"
     logo_width: 90
