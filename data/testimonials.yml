@@ -31,7 +31,7 @@ items:
     title: Chief Technology Officer and co-Founder
     company: HiveMQ
     text: Sparkplug is the ideal means to promote the successful use of MQTT in IIoT applications. A big part of what we do is making it possible to build connected products for applications where safety is critical. As a result, we are excited to provide a highly reliable and highly scalable MQTT broker for customers who are deploying Sparkplug. 
-    logo: /images/sparkplug/members/hivemq.png
+    logo: /images/sparkplug/members/hivemq-header-logo.svg
     alt: "HiveMQ"
     logo_width: 90
 
@@ -44,11 +44,11 @@ items:
     alt: "Inductive Automation"
     logo_width: 90
 
-#  -
-#     name: Angus Shih
-#     title: Chief Executive Officer
-#     company: ORing
-#     text: It is ORing’s great honor to work with the Sparkplug Working Group founding members to develop MQTT-Sparkplug technology for the next generation of IoT and smart city solutions. [...] MQTT-Sparkplug is the best solution to solve IoT device compatibility issues and can manage the status of IOT devices in real time. 
-#     logo: /images/sparkplug/members/oring.png
-#     alt: "Inductive Automation"
-#     logo_width: 90
+  -
+     name: Angus Shih
+     title: Chief Executive Officer
+     company: ORing
+     text: It is ORing’s great honor to work with the Sparkplug Working Group founding members to develop MQTT-Sparkplug technology for the next generation of IoT and smart city solutions. [...] MQTT-Sparkplug is the best solution to solve IoT device compatibility issues and can manage the status of IOT devices in real time. 
+     logo: /images/sparkplug/members/oring-logo.jpg
+     alt: "Inductive Automation"
+     logo_width: 90
