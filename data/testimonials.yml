@@ -45,10 +45,10 @@ items:
     logo_width: 90
 
   -
-    name: Angus Shih
-    title: Chief Executive Officer
-    company: ORing
-    text: It is ORing’s great honor to work with the Sparkplug Working Group founding members to develop MQTT-Sparkplug technology for the next generation of IoT and smart city solutions. [...] MQTT-Sparkplug is the best solution to solve IoT device compatibility issues and can manage the status of IOT devices in real time. 
-    logo: /images/sparkplug/members/inductive-automation-logo.png
-    alt: "Inductive Automation"
-    logo_width: 90
+#     name: Angus Shih
+#     title: Chief Executive Officer
+#     company: ORing
+#     text: It is ORing’s great honor to work with the Sparkplug Working Group founding members to develop MQTT-Sparkplug technology for the next generation of IoT and smart city solutions. [...] MQTT-Sparkplug is the best solution to solve IoT device compatibility issues and can manage the status of IOT devices in real time. 
+#     logo: /images/sparkplug/members/oring.png
+#     alt: "Inductive Automation"
+#     logo_width: 90
