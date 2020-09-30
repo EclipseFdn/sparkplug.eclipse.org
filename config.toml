@@ -65,5 +65,5 @@ pluralizeListTitles = false
 
 [[menu.main]]
     name = "Join"
-    url = "https://accounts.eclipse.org/contact/membership"
+    url = "https://accounts.eclipse.org/contact/membership/sparkplug"
     weight = 2
