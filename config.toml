@@ -24,6 +24,7 @@ pluralizeListTitles = false
   logo_width = "210"
   header_left_classes = "col-sm-7"
   main_menu_wrapper_classes = "col-sm-17 margin-top-25"
+  featured_content_publish_target = "sparkplug"
   
 [taxonomies]
   category = "categories"
