@@ -14,7 +14,7 @@ pluralizeListTitles = false
   description = "The Eclipse Sparkplug Working Group seeks to drive the evolution and adoption of the Eclipse Sparkplug protocol and related MQTT-based technologies that enable the creation of open, collaborative, interoperable, and scalable Industrial IoT (IIoT) solutions and provide support for Industry 4.0."
   seo_title_suffix = " | The Eclipse Foundation"
   keywords = ["Internet of Things", "Industrial Internet of Things", "MQTT", "Interoperability", "Sparkplug", "specification", "Sparkplug Specification", "protocol", "Sparkplug Procotol", "open source"]
-  logo = "images/sparkplug/sparkplug-logo-white-no-tagline.svg"
+  logo = "images/sparkplug/sparkplug-logo.png"
   styles = "css/styles.css"
   favicon = "images/sparkplug/favicon/favicon.ico"
   share_img = "images/sparkplug/social-image-sparkplug.png"
@@ -50,21 +50,6 @@ pluralizeListTitles = false
   hrefTargetBlank = true
 
 [[menu.main]]
-    name = "About"
-    url = "/about/faq"
-    weight = 1
-
-[[menu.main]]
-    name = "Members"
-    url = "/#members"
-    weight = 2
-
-[[menu.main]]
-    name = "Testimonials"
-    url = "/#testimonials"
-    weight = 2
-
-[[menu.main]]
-    name = "Join"
+    name = "Join Us"
     url = "https://accounts.eclipse.org/contact/membership/sparkplug"
     weight = 2
