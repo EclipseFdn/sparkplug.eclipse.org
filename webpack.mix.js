@@ -25,9 +25,11 @@ mix.scripts([
     './node_modules/jquery-match-height/dist/jquery.matchHeight-min.js',
     './node_modules/feather-icons/dist/feather.min.js',
     './node_modules/cookieconsent/src/cookieconsent.js',
+    './node_modules/owl.carousel/dist/owl.carousel.min.js',
     './node_modules/jquery-eclipsefdn-api/dist/jquery.eclipsefdn-api.min.js',
     './node_modules/eclipsefdn-solstice-assets/js/solstice.cookieconsent.js',
     './node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.videos.js',
     './node_modules/eclipsefdn-solstice-assets/js/solstice.cookies.js',
-    './node_modules/eclipsefdn-solstice-assets/js/solstice.js'
+    './node_modules/eclipsefdn-solstice-assets/js/solstice.js',
+    'js/main.js'
 ], './static/js/solstice.js');

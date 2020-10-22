@@ -69,7 +69,7 @@
   font-size:19px;
   h2{
     font-size: 34px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #404047;
     margin-top:0;
     text-transform: uppercase;
@@ -97,15 +97,37 @@
 
 .featured-section-testimonials{
   background-size:cover;
-  background-image: url('images/testimonial-image.jpg');
+  background-color: @brand-primary;
   background-position: 0 100%;
+  h2, p {
+    color:@white;
+  }
+  p {
+    text-align:left;
+  }
+  .featured-section-testimonials-container {
+    margin-bottom:50px;
+  }
+  .featured-section-testimonials-image {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    line-height: 200px;
+    overflow: hidden;
+    img {
+      margin: 0 auto;
+      display: inline-block;
+    }
+  }
 }
 
 .featured-section-members {
+  background-color:#efefef;
   padding-top: 80px;
   padding-bottom: 80px;
   li {
-   padding:10px;
+    margin:0 40px 60px;
   }  
 }
 
@@ -247,6 +269,25 @@
   padding-top:100px;
 }
 
-.featured-section-members {
+.featured-section-contact-form {
+  .featured-section-contact-form-image {
+    width:275px;
+  }
+  .featured-section-contact-btn {
+    width: 170px;
+  }
+  
+}
+
+.featured-section-news {
   background-color:#efefef;
+}
+
+.featured-section-news-resources {
+  p{
+    font-size: 16px;
+    color: #6a859c;
+    line-height: 1.5;
+    font-weight: 200;
+  }
 }
