@@ -1,0 +1,13 @@
+<h2 class="heading-line">
+  <span>Recent News</span>
+</h2>
+{{#news}}
+<div class="row">
+  <div class="col-sm-5"><img width="90" src="images/sparkplug/resources/icon1.png"></div>
+  <div class="col-sm-19">
+    <p class="eclipsefdn-news-list-date">{{ date }}</p>
+    <h3><a href="{{ link }}">{{ title }}</a></h3>
+    <p class="eclipsefdn-news-list-body">{{ body }}</p>
+  </div>
+</div>
+{{/news}} 

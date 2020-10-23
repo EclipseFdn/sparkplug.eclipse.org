@@ -28,4 +28,11 @@ container: "container-fluid"
 
 {{< home-contact-form >}}
 
-{{< home-news >}}
+{{< grid/section-container class="featured-section-news" >}}
+  {{< grid/div class="col-sm-12" isMarkdown="false" >}}
+    {{< newsroom/news id="news-template-id" templateId="custom-news-template" templatePath="/js/templates/news-no-mh.mustache">}}
+  {{</ grid/div >}}
+  {{< grid/div class="col-sm-12" isMarkdown="false" >}} 
+    {{< home-resources >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}

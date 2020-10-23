@@ -104,20 +104,35 @@
   }
   p {
     text-align:left;
+    color:@white;
+    font-size:24px;
+    font-weight:200;
+  }
+  p:first-child {
+    padding-top:40px;
   }
   .featured-section-testimonials-container {
     margin-bottom:50px;
   }
   .featured-section-testimonials-image {
     background-color: #fff;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    line-height: 200px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    line-height: 300px;
     overflow: hidden;
     img {
       margin: 0 auto;
       display: inline-block;
+    }
+  }
+  
+  @media (max-width: @screen-xs-max) {
+    img, .featured-section-testimonials-image {
+      margin:0 auto;
+    }
+    p{
+      text-align:center;
     }
   }
 }
@@ -203,16 +218,6 @@
 
 // News Styles
 
-.featured-section-testimonials-single {
-  background-color:@brand-primary;
-  padding:20px 0;
-  color:@white;
-  p {
-    color:@white;
-    font-size:18px;
-  }
-}
-
 .featured-section-diagrams {
   text-align:center;
   padding:60px 0;
@@ -230,14 +235,8 @@
 }
 
 .featured-section-testimonials-single {
-  p{
-    font-size:24px;
-    font-weight:200;
-  }
-}
-
-.featured-section-testimonials-single-text {
-  padding-top:40px;
+  background-color:@brand-primary;
+  color:@white;
 }
 
 .featured-section-join-us {
@@ -263,11 +262,21 @@
     text-align:right;
     font-weight:200;
   }
+  
+  @media (min-width: @screen-sm-min) {
+    .featured-section-book-content {
+      padding-top:100px;
+    }
+  }
+
+  @media (max-width: @screen-xs-max) {
+    p {
+      text-align:center;
+    }
+  }
 }
 
-.featured-section-book-content {
-  padding-top:100px;
-}
+
 
 .featured-section-contact-form {
   .featured-section-contact-form-image {
@@ -276,18 +285,45 @@
   .featured-section-contact-btn {
     width: 170px;
   }
-  
 }
+
 
 .featured-section-news {
   background-color:#efefef;
-}
-
-.featured-section-news-resources {
+  padding:60px 0;
+  font-size:14px;
+  h2 {
+    color:@text-color;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform:uppercase;
+  }
+  .heading-line {
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
   p{
     font-size: 16px;
     color: #6a859c;
     line-height: 1.5;
     font-weight: 200;
+    &:first-child {
+      font-size:12px;
+      margin-bottom:10px;
+      color:@text-color;
+    }
+  }
+  h3 {
+    margin-top:0px;
+    a {
+      color:@text-color;
+    }
+  }
+  .eclipsefdn-news-list-body {
+    margin-bottom:30px;
   }
 }
+
+
