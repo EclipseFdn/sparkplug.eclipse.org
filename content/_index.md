@@ -34,5 +34,6 @@ container: "container-fluid"
   {{</ grid/div >}}
   {{< grid/div class="col-sm-12" isMarkdown="false" >}} 
     {{< home-resources >}}
+    {{< home-events >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}

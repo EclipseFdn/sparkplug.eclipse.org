@@ -18,13 +18,16 @@ pluralizeListTitles = false
   styles = "css/styles.css"
   favicon = "images/sparkplug/favicon/favicon.ico"
   share_img = "images/sparkplug/social-image-sparkplug.png"
-  gcse = "011805775785170369411:p3ec0igo0qq"
   js = "js/solstice.js"
   header_wrapper_class = " header-default-bg-img"
   logo_width = "210"
   header_left_classes = "col-sm-7"
   main_menu_wrapper_classes = "col-sm-17 margin-top-25"
   featured_content_publish_target = "sparkplug"
+  call_for_action_text = "Join Us"
+  call_for_action_url = "index.html#join_group"
+  call_for_action_icon = "fa-download"
+  hide_cfa_same_page = true
   
 [taxonomies]
   category = "categories"
@@ -48,8 +51,3 @@ pluralizeListTitles = false
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
-
-[[menu.main]]
-    name = "Join Us"
-    url = "https://accounts.eclipse.org/contact/membership/sparkplug"
-    weight = 2

@@ -1,6 +1,6 @@
-<div class="row news-item text-center padding-bottom-15">
+<div class="row news-item padding-bottom-15">
 {{#events}}
-  <div class="col-sm-24">
+  <div class="timeline-item">
     <p class="margin-bottom-0">
 
      {{#registration}}
@@ -12,8 +12,7 @@
      {{/registration}}
 
     </p>
-    <p class="margin-bottom-0">{{ locationName }}</p>
-    <p>{{ date }} - {{ end-date }}</p>
+    <p class="timeline-date">{{ date }}</p>
   </div>
 {{/events}}
 </div>

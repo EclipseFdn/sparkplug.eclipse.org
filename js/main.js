@@ -12,7 +12,6 @@
 */
 
 (function($, document) {
-  console.log("123");
   $(".solstice-slider").each(function() {
     var $t = $(this);
     $t.owlCarousel({
