@@ -2,7 +2,15 @@
 {{#events}}
   <div class="col-sm-24">
     <p class="margin-bottom-0">
-      <a class="fw-700" href="{{ registration }}">{{ title }}</a>
+
+     {{#registration}}
+       <a class="fw-700" href="{{ registration }}">{{ title }}</a>
+     {{/registration}}
+
+     {{^registration}}
+       <span class="fw-700">{{ title }}</span>
+     {{/registration}}
+
     </p>
     <p class="margin-bottom-0">{{ locationName }}</p>
     <p>{{ date }} - {{ end-date }}</p>
