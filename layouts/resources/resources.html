@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range where .Site.Pages "Section" .Section }}
+    {{ range .Sections }}
+      <h2>{{.Title}}</h2>
+      <div class="resources-group">
+        <div class="row">
+        {{ range first 3 (sort .Pages ".Params.date" "desc") }}
+          <div class="col-sm-8 col-xs-24 matchheight-item">
+            {{ .Render "summary"}}
+          </div>
+        {{ end }}
+        </div>
+        <p class="resources-more"><a href="{{.URL}}">View More</a></p>
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

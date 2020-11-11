@@ -1,9 +1,9 @@
 ---
 title: "Resources"
-description: ""
-hide_sidebar: true
-date: 2020-11-02T09:50:25-04:00
-layout: "single"
+seo_title: "Resources - Eclipse Sparkplug Working Group"
+description: "Explore a variety of Eclipse IoT technologies through surveys, articles, case studies, whitepapers, and market reports."
+keywords: ["Eclipse IoT", "Eclipse IoT technologies"]
+layout: "resources"
 ---
 
-This is an empty page for now.
+#### Below are some useful links to articles and other resources about Eclipse Sparkplug Working Group.

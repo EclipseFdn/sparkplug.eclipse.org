@@ -12,6 +12,10 @@
 */
 
 (function($, document) {
+  
+  $('.matchheight-item').matchHeight();
+  feather.replace();
+  
   $(".solstice-slider").each(function() {
     var $t = $(this);
     $t.owlCarousel({
