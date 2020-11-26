@@ -1,0 +1,63 @@
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Sparkplug?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>An open source software specification that provides MQTT clients the framework to seamlessly integrate data from their applications, sensors, devices, and gateways within the MQTT Infrastructure.</p>"
+      }
+    },{
+      "@type": "Question",
+      "name": "Where can I find the Sparkplug specification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>For the time being, the Sparkplug specification is <a href='https://www.eclipse.org/tahu/spec/Sparkplug%20Topic%20Namespace%20and%20State%20ManagementV2.2-with%20appendix%20B%20format%20-%20Eclipse.pdf'>available as a PDF</a>. It will migrate to a GIT repository in the coming months as its source is converted to an open document format.</p>"
+      }
+    },{
+      "@type": "Question",
+      "name": "Does the Sparkplug specification change the MQTT specification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>No. Sparkplug is simply a specification that defines how to best use MQTT in real-time, mission critical industrial infrastructures. Sparkplug addresses the following components within an MQTT infrastructure: #1 - Sparkplug defines an OT centric Topic Namespace #2 - Sparkplug defines an OT centric Payload definition optimized for industrial process variables. #3 - Sparkplug defines MQTT Session State management required by real-time OT SCADA systems.</p>"
+      }
+    },{
+      "@type": "Question",
+      "name": "Why is now the right time for the Eclipse Foundation to create the Sparkplug Working Group?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>MQTT has emerged as a dominant messaging transport across both the IT and OT market sectors. By design, the MQTT specification does not dictate a Topic Namespace nor does it dictate any payload encoding. But as IIoT is adopted by device OEM’s in the industrial sector, having different Topic Namespace and payload encoding inhibits interoperability for the end customer.</p>"
+      }
+    },{
+      "@type": "Question",
+      "name": "What is a good way to think about what Sparkplug accomplishes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>The Internet of People exploded because of two open technologies: First there was HTTP which defined a data exchange protocol. Then there was HTML that was used to “define” the data sent by HTTP. Together, HTTP and HTML, these technologies provided the basis for the explosion of the Internet of People.</p><p>For the IIoT to obtain the same adoption and growth rate the same approach needs to be taken. The widely adopted MQTT message transport can be thought of like HTTP i.e. providing an open and interoperable messaging framework. But the IIoT is missing the “definition” of the data in the payload. Therefore Sparkplug can be thought of like the HTML of IIoT.</p>"
+      }
+    },{
+        "@type": "Question",
+        "name": "Why did you create Sparkplug when specifications like OPC-UA exist?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Sparkplug infrastructures are not intended to replace OPC but rather complement it. In existing brownfield industrial sites, OPC-UA polling engines are used to gain access to the raw Process Variables, for example. That said, Sparkplug is a better choice than OPC-UA in a wide range of scenarios. Here are a few points to consider:</p><ul><li>Sparkplug provides pure device to OT pub/sub MOM architectures.</li><li>MQTT brokers + Sparkplug are lightweight enough for sensor/device telemetry communications.</li><li>Sparkplug is light enough to implement on all types of edge devices.</li></ul><p>Moreover, the <a href='https://iot.eclipse.org/'>Eclipse IoT working group</a> is the home to a variety of protocol implementations, such as <a href='https://www.eclipse.org/californium/'>Eclipse Californium (CoAP)</a>, <a href='https://github.com/eclipse-cyclonedds/cyclonedds'>Eclipse Cyclone DDS (DDS)</a>, <a href='https://github.com/eclipse/milo'>Eclipse Milo (OPC-UA)</a> and <a href='https://www.eclipse.org/paho/'>Eclipse Paho (MQTT)</a>, among others. Ultimately, we believe it is up to developers to pick the right tool for their project.</p>"
+        }
+      },{
+        "@type": "Question",
+        "name": "What are some of the key projects the Sparkplug Group will encompass?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Initially, the working group will host the Sparkplug specification project and <a href='https://github.com/eclipse/tahu'>Eclipse Tahu</a>, an existing implementation of the standard. The current Sparkplug (version B) specification was contributed to the Eclipse Foundation by Cirrus Link Solutions. But since the development of the Sparkplug B specification, there have been many suggestions by both end customers and vendors for additional capabilities and features.</p>"
+        }
+      },{
+        "@type": "Question",
+        "name": "How can interested developers and organizations get involved?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>If you want to get in on the ground floor, start by reviewing the <a href='https://www.eclipse.org/org/workinggroups/eclipse_sparkplug_charter.php'>working group charter</a> and the <a href='https://www.eclipse.org/org/workinggroups/wpga/sparkplug_working_group_participation_agreement.pdf'>Sparkplug Working Group Participation Agreement (WPGA)</a>, or email us at <a href='mailto:membership@eclipse.org'>membership@eclipse.org</a>. Individually, developers can join the <a href='https://accounts.eclipse.org/mailing-list/sparkplug-wg'>Sparkplug WG mailing list</a> where we’ll be sharing the progress of the working group.</p>"
+        }
+      }
+    ]
+} 
