@@ -4,7 +4,7 @@ items:
     title: Executive Director
     company: Canary Labs
     text: The demand for interoperability of industrial systems has never been stronger. An open source protocol that provides operations with access to the data they need while balancing IT’s mandate for security will deliver the adoption of IIoT solutions. MQTT is the necessary protocol, Sparkplug is the needed specification, and the Eclipse Foundation is the perfect steward [...].
-    logo: /images/sparkplug/members/canary-logo.png
+    image: /images/sparkplug/testimonials/jeff_knepper.png
     alt: "Canary Labs"
     logo_width: 90
 
@@ -13,7 +13,7 @@ items:
     title: Lead, IIoT Center Of Excellence 
     company: Chevron
     text:  The features that the Sparkplug specification offers are required if we want to safely operate our facilities using a publisher/subscriber architecture. Having the Eclipse Foundation manage this open protocol is essential if we want vendors to adopt it! Being a strategic member means that we can contribute to the specification and not have to manage our own proprietary one.
-    logo: /images/sparkplug/members/chevron-corporation.svg
+    image: /images/sparkplug/testimonials/todd_ansligner.jpg
     alt: "Chevron"
     logo_width: 90
 
@@ -22,7 +22,7 @@ items:
     title: Chief Technology Officer
     company: Cirrus Link Solutions
     text: As one of the co-inventors of MQTT over 20 years ago, I couldn’t be more pleased to see the Sparkplug specification bring MQTT back into the original market sector it was developed for in the first place. The Eclipse Foundation’s successful track record in this space with projects like Eclipse Paho and others is precisely what the emerging IIoT industry requires [...]. 
-    logo: /images/sparkplug/members/cirrus-link-solutions.png
+    image: /images/sparkplug/testimonials/arlen_nipper.jpg
     alt: "Cirrus Link Solutions"
     logo_width: 90
 
@@ -31,7 +31,7 @@ items:
     title: Chief Technology Officer and co-Founder
     company: HiveMQ
     text: Sparkplug is the ideal means to promote the successful use of MQTT in IIoT applications. A big part of what we do is making it possible to build connected products for applications where safety is critical. As a result, we are excited to provide a highly reliable and highly scalable MQTT broker for customers who are deploying Sparkplug. 
-    logo: /images/sparkplug/members/hivemq-header-logo.svg
+    image: /images/sparkplug/testimonials/dominik_obermeier.jpg
     alt: "HiveMQ"
     logo_width: 90
 
@@ -40,7 +40,7 @@ items:
     title: Chief Strategy Officer
     company: Inductive Automation
     text: Our Ignition platform is designed specifically to bridge the gap between IT and production systems, so ensuring interoperability for systems spanning the IIoT ecosystem is critical to our business. This new working group is a critical component to making industry-wide interoperability a reality.
-    logo: /images/sparkplug/members/inductive-automation-logo.png
+    image: /images/sparkplug/testimonials/don_pearson.jpg
     alt: "Inductive Automation"
     logo_width: 90
 
@@ -49,6 +49,6 @@ items:
      title: Chief Executive Officer
      company: ORing
      text: It is ORing’s great honor to work with the Sparkplug Working Group founding members to develop MQTT-Sparkplug technology for the next generation of IoT and smart city solutions. [...] MQTT-Sparkplug is the best solution to solve IoT device compatibility issues and can manage the status of IOT devices in real time. 
-     logo: /images/sparkplug/members/oring-logo.jpg
+     image: /images/sparkplug/members/oring-logo.jpg
      alt: "Inductive Automation"
      logo_width: 90

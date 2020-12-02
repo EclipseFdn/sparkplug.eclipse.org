@@ -52,3 +52,10 @@ pluralizeListTitles = false
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+  
+[[menu.main]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 1
+  identifier = "resources_menu"
+
