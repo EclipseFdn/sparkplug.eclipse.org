@@ -37,6 +37,27 @@
       responsiveRefreshRate: 100
     });
   });
+
+  $.ajax({
+    type: "GET",
+    url: "/js/testimonials.json",
+    dataType: "json",
+    cache: false,
+    success: function(data) {
+      var items = data.items;
+      var randomItem = items[Math.floor(Math.random()*items.length)];
+      var name = randomItem.name;
+      var image = randomItem.image;
+      var text = randomItem.text;
+      var title = randomItem.title;
+      var company = randomItem.company;
+      
+      console.log(randomItem);
+      
+      $('.featured-section-testimonials-single-image').html('<img class="img-responsive" src="'+ image +'" alt="'+ name +'">');
+      $('.featured-section-testimonials-single-text').html('<p><em>'+ text +'</em></p><p><em>- '+ name +', '+ title +' of '+ company +'</em></p>');
+    }
+  });
    
 })(jQuery, document); 
 
