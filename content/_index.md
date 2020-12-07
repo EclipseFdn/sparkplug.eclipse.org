@@ -10,7 +10,7 @@ hide_breadcrumb: true
 show_featured_story: false
 date: 2019-09-10T15:50:25-04:00
 layout: "single"
-links: [[href: "https://join.slack.com/t/eclipse-sparkplug-wg/shared_invite/enQtOTI1ODk2OTE1NDYyLTk2ZTMxNzNkNzMxYjMyMTA3MzRiOGE0MjY4YjNiYWZmYTRkYmFhOTg4NmJhNzUyMTFhYTcyZTI0YWQ5YzE1YjE", text: "Join us"], [href: "#", text: "Learn More"]]
+links: [[href: "/join-us", text: "Join us"], [href: "#", text: "Learn More"]]
 container: "container-fluid"
 ---
 
