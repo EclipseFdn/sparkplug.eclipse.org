@@ -10,7 +10,7 @@ hide_breadcrumb: true
 show_featured_story: false
 date: 2019-09-10T15:50:25-04:00
 layout: "single"
-links: [[href: "/join-us", text: "Join us"], [href: "#", text: "Learn More"]]
+links: [[href: "#", text: "Learn More"]]
 container: "container-fluid"
 ---
 
