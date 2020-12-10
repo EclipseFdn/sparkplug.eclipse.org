@@ -10,7 +10,7 @@ hide_breadcrumb: true
 show_featured_story: false
 date: 2019-09-10T15:50:25-04:00
 layout: "single"
-links: [[href: "#", text: "Learn More"]]
+links: [[href: "/about/faq", text: "Learn More"]]
 container: "container-fluid"
 ---
 
