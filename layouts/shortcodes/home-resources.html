@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-sm-5"><i data-feather="{{ lower .Parent.Params.icon }}" stroke-width="1"></i></div>
       <div class="col-sm-19">
-        <h3>{{.Title}}</h3>
+        <h3><a target="_blank" href="{{ .Params.link }}">{{.Title}}</a></h3>
         <p>{{.Content | safeHTML | truncate 140}}</p>
       </div>
     </div>
