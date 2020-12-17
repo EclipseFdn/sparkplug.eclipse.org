@@ -24,7 +24,8 @@ If you make a number of contributions over time, the project team may invite you
 ## Download an open source Sparkplug implementation
 
 [Eclipse Tahu](https://projects.eclipse.org/projects/iot.tahu) is an open source commercial grade and production quality implementation of the Sparkplug specification. It is developed in sync with the specification itself.
-Join the Sparkplug Working Group
+
+### Join the Sparkplug Working Group
 
 The Sparkplug working group is a group of like-minded companies and organizations that are driving the creation and stewardship of the Sparkplug specification and strengthening awareness and adoption through an open branding and compatibility program.
 
