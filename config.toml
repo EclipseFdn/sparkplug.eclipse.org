@@ -59,3 +59,9 @@ pluralizeListTitles = false
   weight = 1
   identifier = "resources_menu"
 
+[[menu.main]]
+  name = "Compatibility"
+  url = "/compatibility/"
+  weight = 2
+  identifier = "compatibility_menu"
+
