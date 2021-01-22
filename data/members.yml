@@ -11,6 +11,7 @@ types:
       title: Chevron
       link: https://www.chevron.com/
       img_width: 120
+      img_height: 116
     -
       image: /images/sparkplug/members/cirrus-link-solutions.png
       title: Cirrus Link
@@ -21,6 +22,7 @@ types:
       title: HiveMQ
       link: https://www.hivemq.com/
       img_width: 200
+      img_height: 47
     -
       image: /images/sparkplug/members/inductive-automation-logo.png
       title: Inductive Automation
