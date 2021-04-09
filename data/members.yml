@@ -28,6 +28,11 @@ types:
       title: Inductive Automation
       link: https://inductiveautomation.com/
       img_width: 200
+    - 
+      title: Opto 22
+      link: https://www.opto22.com/
+      image: /images/sparkplug/members/opto-22-logo.png
+      img_width: 200
     -
       image: /images/sparkplug/members/oring-logo.jpg
       title: ORing
