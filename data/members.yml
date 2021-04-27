@@ -18,6 +18,11 @@ types:
       link: https://www.cirrus-link.com/
       img_width: 200
     -
+      image: /images/sparkplug/members/flow-logo.png
+      title: Flow Software
+      link: https://www.flow-software.com/
+      img_width: 115
+    -
       image: /images/sparkplug/members/hivemq-header-logo.svg
       title: HiveMQ
       link: https://www.hivemq.com/
