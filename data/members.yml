@@ -33,13 +33,23 @@ types:
       title: Inductive Automation
       link: https://inductiveautomation.com/
       img_width: 200
+    -
+      image: /images/sparkplug/members/intel-logo.png
+      title: Intel
+      link: https://www.intel.ca/
+      img_width: 140
     - 
       title: Opto 22
       link: https://www.opto22.com/
       image: /images/sparkplug/members/opto-22-logo.png
       img_width: 200
     -
-      image: /images/sparkplug/members/oring-logo.jpg
-      title: ORing
-      link: https://www.oringnet.com/
+      image: /images/sparkplug/members/signalFire-telemetry-logo.png
+      title: SignalFire Telemetry
+      link: https://signal-fire.com/
+      img_width: 180
+    -
+      image: /images/sparkplug/members/the-university-of-sheffield-logo.png
+      title: The University of Sheffield
+      link: https://www.sheffield.ac.uk/
       img_width: 200
