@@ -44,7 +44,7 @@ types:
       image: /images/sparkplug/members/opto-22-logo.png
       img_width: 200
     -
-      image: /images/sparkplug/members/signalFire-telemetry-logo.png
+      image: /images/sparkplug/members/signalfire-telemetry-logo.png
       title: SignalFire Telemetry
       link: https://signal-fire.com/
       img_width: 180
