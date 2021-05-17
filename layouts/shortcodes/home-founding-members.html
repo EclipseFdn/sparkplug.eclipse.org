@@ -12,7 +12,7 @@
 {{ $data := index (where .Site.Data.members.types "name" "members") 0 }}
 <div id="members" class="row featured-section featured-section-members text-center">
   <div class="container">
-    <h2>Founding Members</h2>
+    <h2>Members</h2>
     <ul class="list-inline margin-bottom-0">
       {{ range $data.items }}
         <li><a href="{{ .link }}"><img class="founder-logo" {{ if isset . "img_height" }}  height="{{ .img_height }}" {{ end }} {{ if isset . "img_width" }}  width="{{ .img_width }}" {{ end }} alt="{{ .title }}" src="{{ .image }}"></a></li>
