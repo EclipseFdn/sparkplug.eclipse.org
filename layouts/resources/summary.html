@@ -13,7 +13,13 @@
 
 <div class="resources-item">
   {{ if and (eq .Parent.Title "Videos") (.Params.link)}}
-    <a class="eclipsefdn-video" href="{{.Params.link}}"></a>
+    {{ if (eq .Params.src_site "others") }}
+      <a class="eclipsefnd-video-cover" href="{{.Params.link}}">
+        <img src="{{.Params.video_img}}">
+      </a>
+    {{ else }}
+      <a class="eclipsefdn-video" href="{{.Params.link}}"></a>
+    {{end}}
   {{ else }}
     <a class="resources-item-img" href="{{- .Params.link | default .RelPermalink }}">
       {{ if .Params.image }}
