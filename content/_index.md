@@ -31,6 +31,7 @@ container: "container-fluid"
 {{< grid/section-container class="featured-section-news" >}}
   {{< grid/div class="col-sm-12" isMarkdown="false" >}}
     {{< newsroom/news id="news-template-id" templateId="custom-news-template" templatePath="/js/templates/news-no-mh.mustache">}}
+    <p class="text-center"><a href="/news">View More News</a></p>
   {{</ grid/div >}}
   {{< grid/div class="col-sm-12" isMarkdown="false" >}} 
     {{< home-resources >}}
