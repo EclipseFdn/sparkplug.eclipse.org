@@ -30,11 +30,21 @@ container: "container-fluid"
 
 {{< grid/section-container class="featured-section-news" >}}
   {{< grid/div class="col-sm-12" isMarkdown="false" >}}
-    {{< newsroom/news id="news-template-id" templateId="custom-news-template" templatePath="/js/templates/news-no-mh.mustache">}}
+    {{< newsroom/news id="news-template-id" templateId="custom-news-template" templatePath="/js/templates/news-no-mh.mustache" publishTarget="sparkplug" >}}
     <p class="text-center"><a href="/news">View More News</a></p>
   {{</ grid/div >}}
-  {{< grid/div class="col-sm-12" isMarkdown="false" >}} 
+  {{< grid/div class="col-sm-12" isMarkdown="false" >}}
     {{< home-resources >}}
     {{< home-events >}}
+      {{< newsroom/events
+          id="event-list-container"
+          publishTarget="sparkplug"
+          containerClass="event-timeline"
+          upcoming="1"
+          templateId="custom-events-template"
+          templatePath="/js/templates/event-list-format.mustache"
+          count="4"
+      >}}
+    {{</ home-events >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
