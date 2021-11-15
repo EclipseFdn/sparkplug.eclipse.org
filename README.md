@@ -9,7 +9,7 @@ The Eclipse Sparkplug Working Group seeks to drive the evolution and adoption of
 Install dependencies, build assets and start a webserver:
 
 ```bash
-npm install && hugo server
+yarn && hugo server
 ```
 
 You can find guidance on the page-level metadata [here](https://eclipsefdn.github.io/hugo-solstice-theme/), and examples of the assorted page types (components) [here](https://eclipsefdn.github.io/hugo-solstice-theme/components/).
