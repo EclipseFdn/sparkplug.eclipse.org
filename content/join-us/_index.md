@@ -33,6 +33,11 @@ Please have a look at our [membership prospectus](https://f.hubspotusercontent10
 
 The working group offers a mailing list and Slack workspace where members and non-members can exchange and collaborate.
 
+---
+
+{{< hubspot_contact_form portalId="5413615" formId="4f83381b-2fa0-499f-bae3-d8286072d360" >}}
+
+---
 ### Sparkplug Working Group Mailing List
 
 You can join the mailing list by [following this link](https://accounts.eclipse.org/mailing-list/sparkplug-wg). Please note a free Eclipse Foundation account is required to subscribe.
