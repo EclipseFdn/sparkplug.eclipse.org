@@ -111,6 +111,6 @@ pluralizeListTitles = false
 
 [[menu.main]]
     name = "Become a Member"
-    url = "/join-us/"
+    url = "/contact-join-us/"
     weight = 1
     parent = "membership"
