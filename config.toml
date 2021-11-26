@@ -52,10 +52,65 @@ pluralizeListTitles = false
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
-  
+
+# main menu
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+  identifier = "about"
+
+[[menu.main]]
+  name = "Membership"
+  url = "/membership/"
+  weight = 1
+  identifier = "membership"
+
 [[menu.main]]
   name = "Resources"
   url = "/resources/"
   weight = 1
   identifier = "resources_menu"
 
+# sub-menu
+[[menu.main]]
+    name = "Sparkplug Specification"
+    url = "https://www.eclipse.org/tahu/spec/Sparkplug%20Topic%20Namespace%20and%20State%20ManagementV2.2-with%20appendix%20B%20format%20-%20Eclipse.pdf"
+    weight = 1
+    parent = "about"
+
+[[menu.main]]
+    name = "FAQ"
+    url = "/about/faq/"
+    weight = 1
+    parent = "about"
+
+[[menu.main]]
+    name = "Mailing List"
+    url = "https://accounts.eclipse.org/mailing-list/sparkplug-wg"
+    weight = 1
+    parent = "about"
+
+[[menu.main]]
+    name = "Slack Channel"
+    url = "https://app.slack.com/client/TSU5P680K/learning-slack"
+    weight = 1
+    parent = "about"
+
+[[menu.main]]
+    name = "Value of Membership"
+    url = "/resources/"
+    weight = 1
+    parent = "membership"
+
+[[menu.main]]
+    name = "Our Members"
+    url = "/index.html/#members"
+    weight = 1
+    parent = "membership"
+
+[[menu.main]]
+    name = "Become a Member"
+    url = "/join-us/"
+    weight = 1
+    parent = "membership"
