@@ -93,7 +93,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
     name = "Slack Channel"
-    url = "https://app.slack.com/client/TSU5P680K/learning-slack"
+    url = "https://join.slack.com/t/eclipse-sparkplug-wg/shared_invite/zt-btcn48au-luMXPXMbMhBzS4pCaLO6_w"
     weight = 4
     parent = "about"
 
