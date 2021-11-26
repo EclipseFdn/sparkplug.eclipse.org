@@ -82,35 +82,35 @@ pluralizeListTitles = false
 [[menu.main]]
     name = "FAQ"
     url = "/about/faq/"
-    weight = 1
+    weight = 2
     parent = "about"
 
 [[menu.main]]
     name = "Mailing List"
     url = "https://accounts.eclipse.org/mailing-list/sparkplug-wg"
-    weight = 1
+    weight = 3
     parent = "about"
 
 [[menu.main]]
     name = "Slack Channel"
     url = "https://app.slack.com/client/TSU5P680K/learning-slack"
-    weight = 1
+    weight = 4
     parent = "about"
 
 [[menu.main]]
     name = "Value of Membership"
-    url = "/resources/"
+    url = "https://f.hubspotusercontent10.net/hubfs/5413615/sparkplug-member-prospectus%202020.pdf"
     weight = 1
     parent = "membership"
 
 [[menu.main]]
     name = "Our Members"
     url = "/index.html/#members"
-    weight = 1
+    weight = 2
     parent = "membership"
 
 [[menu.main]]
     name = "Become a Member"
     url = "/contact-join-us/"
-    weight = 1
+    weight = 3
     parent = "membership"
