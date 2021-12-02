@@ -105,7 +105,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
     name = "Our Members"
-    url = "/index.html/#members"
+    url = "/#members"
     weight = 2
     parent = "membership"
 
