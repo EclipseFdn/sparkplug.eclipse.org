@@ -41,3 +41,5 @@ You can join the mailing list by [following this link](https://accounts.eclipse.
 
 [Click this link](https://join.slack.com/t/eclipse-sparkplug-wg/shared_invite/zt-btcn48au-luMXPXMbMhBzS4pCaLO6_w) to join the working group's Slack workspace. Many key Sparkplug contributors can be found there on a regular basis.
 
+## Become a member
+{{< hubspot_contact_form portalId="5413615" formId="4f83381b-2fa0-499f-bae3-d8286072d360" >}}
