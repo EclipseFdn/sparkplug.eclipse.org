@@ -1,5 +1,13 @@
 # sparkplug.eclipse.org
 
+---
+**NOTE**
+
+This project was migrated to [Eclipse Gitlab](https://gitlab.eclipse.org/eclipsefdn/it/websites/sparkplug.eclipse.org) on March 25, 2022.
+
+---
+
+
 The [https://sparkplug.eclipse.org](https://sparkplug.eclipse.org) website is generated with [Hugo](https://gohugo.io/documentation/). This project is a work in progress. 
 
 The Eclipse Sparkplug Working Group seeks to drive the evolution and adoption of the Eclipse Sparkplug protocol and related MQTT-based technologies that enable the creation of open, collaborative, interoperable, and scalable Industrial IoT (IIoT) solutions and provide support for Industry 4.0.
